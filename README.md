@@ -15,7 +15,8 @@ Versiones utilizadas:
 
 `bash
 https://github.com/rodrigoacero292-beep/T1_CASO2
-cd SolucionesWeb_T1_Caso2
+seleccionar la carpeta
+usar lo siguiente para poder abrirlo:
 npm install
 npm start
 `
