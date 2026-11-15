@@ -35,13 +35,3 @@ npm test
 | 3 | Registrar gasto de S/ 50.00 | Saldo S/ 300.00; el gasto aparece antes que la recarga |
 | 4 | Intentar gasto de S/ 400.00 | Error "Saldo insuficiente", botón deshabilitado; saldo sigue en S/ 300.00 |
 | 5 | Ingresar cero, negativo o monto vacío | Se rechaza; no cambia el saldo ni el historial |
-
-# Estructura:
-
-`
-src/app/
-├── app.ts / app.html                    # contenedor
-├── billetera.component.ts / .html       # padre: estado e historial
-├── nuevo-movimiento.component.ts / .html # hijo: formulario y validación
-└── movimiento.model.ts                  # tipos TypeScript
-`
