@@ -14,7 +14,7 @@ Versiones utilizadas:
 #Cómo ejecutarlo:
 
 `bash
-git clone https://github.com/stanizone/SolucionesWeb_T1_Caso2.git
+[git clone https://github.com/stanizone/SolucionesWeb_T1_Caso2.git](https://github.com/rodrigoacero292-beep/T1_CASO2.git)
 cd SolucionesWeb_T1_Caso2
 npm install
 npm start
